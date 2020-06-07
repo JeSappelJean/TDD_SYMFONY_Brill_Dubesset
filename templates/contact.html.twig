@@ -1,0 +1,23 @@
+{% extends "base.html.twig" %}
+
+{% block title "Contact" %}
+
+{% block body %}
+    <div class="card col-md-6 offset-3">
+        <div class="card-header">
+            <h1><i class="fas fa-comments"></i> {{ 'contact.contact' | trans }}</h1>
+        </div>
+        <div class="card-body">
+            <div class="card">
+                <img src="/images/iut2_info.png" class="card-img" alt="logo IUT2">
+                <div class="card-body">
+                    <h1 class="card-title"><i class="fas fa-code"></i> {{ 'contact.lp' | trans }}</h1>
+                    <h2 class="card-title"><i class="fab fa-symfony"></i> {{ 'contact.md' | trans }}</h2>
+                    <p>{{ 'contact.copyright' | trans }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+                    

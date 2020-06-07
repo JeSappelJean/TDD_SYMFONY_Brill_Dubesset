@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="IKEAcPZ" resname="contact.contact">
+        <source>contact.contact</source>
+        <target>Contact</target>
+      </trans-unit>
+      <trans-unit id="qtRTUpS" resname="contact.lp">
+        <source>contact.lp</source>
+        <target>Licence Pro MI SIGD - SIMO</target>
+      </trans-unit>
+      <trans-unit id="upRandh" resname="contact.md">
+        <source>contact.md</source>
+        <target>Module MI5</target>
+      </trans-unit>
+      <trans-unit id="pjO.Xou" resname="contact.copyright">
+        <source>contact.copyright</source>
+        <target>Damien BRILL, 2019 / 2020</target>
+      </trans-unit>
+      <trans-unit id="OAHSpec" resname="index.titre">
+        <source>index.titre</source>
+        <target>Accueil</target>
+      </trans-unit>
+      <trans-unit id="0kT6YJt" resname="index.texte">
+        <source>index.texte</source>
+        <target>Ici rien à vendre, c'est juste pour apprendre</target>
+      </trans-unit>
+      <trans-unit id="ueCbrUz" resname="navbar.index">
+        <source>navbar.index</source>
+        <target>Projet brilld</target>
+      </trans-unit>
+      <trans-unit id="rIsAC1h" resname="navbar.boutique">
+        <source>navbar.boutique</source>
+        <target>Boutique</target>
+      </trans-unit>
+      <trans-unit id="28OixrN" resname="navbar.produits">
+        <source>navbar.produits</source>
+        <target>Produit(s)</target>
+      </trans-unit>
+      <trans-unit id="iVNeBrZ" resname="navbar.contact">
+        <source>navbar.contact</source>
+        <target>Contact</target>
+      </trans-unit>
+      <trans-unit id="qTTgibL" resname="navbar.connexion">
+        <source>navbar.connexion</source>
+        <target>Connexion</target>
+      </trans-unit>
+      <trans-unit id="aH4_5kq" resname="navbar.connexion.item1">
+        <source>navbar.connexion.item1</source>
+        <target>Connexion/Inscription</target>
+      </trans-unit>
+      <trans-unit id="R1yRlj6" resname="navbar.connexion.item2">
+        <source>navbar.connexion.item2</source>
+        <target>Mon Compte</target>
+      </trans-unit>
+      <trans-unit id="mVEF1EU" resname="navbar.connexion.item3">
+        <source>navbar.connexion.item3</source>
+        <target>Mes Commandes</target>
+      </trans-unit>
+      <trans-unit id="IJzvrwX" resname="navbar.connexion.item4">
+        <source>navbar.connexion.item4</source>
+        <target>Déconnexion</target>
+      </trans-unit>
+      <trans-unit id="5bg_G4Z" resname="navbar.backoffice">
+        <source>navbar.backoffice</source>
+        <target>BackOffice</target>
+      </trans-unit>
+      <trans-unit id="aZctP0h" resname="navbar.search_placeholder">
+        <source>navbar.search_placeholder</source>
+        <target>Chercher Produits...</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

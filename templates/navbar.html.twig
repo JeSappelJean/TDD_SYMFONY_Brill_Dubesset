@@ -1,0 +1,53 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  <a class="navbar-brand" href="{{ path('index') }}">
+  <i class="fas fa-home"></i> {{ 'navbar.index' | trans }} </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="{{ path('boutique') }}">
+            <i class="fas fa-store"></i> {{ 'navbar.boutique' | trans }} </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{ path('panier_index') }}">
+            <i class="fas fa-shopping-cart"></i> {{ panier_qty }} {{ 'navbar.produits' | trans }} </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{ path('contact') }}">
+            <i class="fas fa-comments"></i> {{ 'navbar.contact' | trans }} </a>
+        </li>
+        <li class="nav-item dropdown disabled">
+            <span class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-user"></i> {{ 'navbar.connexion' | trans }} </span>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item disabled" href="#"> {{ 'navbar.connexion.item1' | trans }} </a>
+                <a class="dropdown-item disabled" href="#"> {{ 'navbar.connexion.item2' | trans }} </a>
+                <a class="dropdown-item disabled" href="#"> {{ 'navbar.connexion.item3' | trans }} </a>
+                <a class="dropdown-item disabled" href="#"> {{ 'navbar.connexion.item4' | trans }} </a>
+            </div>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" title="Ne devra être visible que pour l'Admin" data-placement="right" data-html="true">
+            <span class="nav-link disabled" href="#"><i class="fas fa-tools"></i> {{ 'navbar.backoffice' | trans }} </span>
+        </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" id="searchString" type="text" placeholder="{{ 'navbar.search_placeholder' | trans }}" aria-label="Search">
+        <button class="btn btn-secondary my-2 my-sm-0" id="searchButton">
+            <i class="fas fa-search"></i>
+        </button>
+    </form>
+    <!--<ul class="navbar-nav my-2">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{#{app.request.attributes.get('_locale')}#}</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown03" style="min-width: 5rem;">
+                {#% for locale in supported_locales|split('|') %#}
+                    <a class="dropdown-item" href="{#{ path(app.request.attributes.get('_route'),app.request.attributes.get('_route_params')|merge({'_locale': locale})) }#}">{#{locale}#}</a>
+                {#% endfor %#}
+            </div>
+        </li>
+    </ul>-->
+  </div>
+</nav>
